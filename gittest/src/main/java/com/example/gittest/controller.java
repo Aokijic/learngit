@@ -8,5 +8,6 @@ public class controller {
     @RequestMapping("/test")
     public void test() {
         System.out.println("hello");
+        System.out.println("冲突测试");
     }
 }
