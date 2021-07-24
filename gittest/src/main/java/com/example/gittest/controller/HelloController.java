@@ -1,11 +1,11 @@
-package com.example.gittest;
+package com.example.gittest.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
 @RequestMapping("/ui")
-public class controller {
+public class HelloController {
 
     @RequestMapping("/test")
     public void test(Integer id, HttpServletRequest request) {
