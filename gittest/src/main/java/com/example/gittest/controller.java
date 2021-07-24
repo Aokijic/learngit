@@ -2,11 +2,14 @@ package com.example.gittest;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RequestMapping("/ui")
 public class controller {
 
     @RequestMapping("/test")
-    public void test() {
-        System.out.println("hello");
+    public void test(Integer id, HttpServletRequest request) {
+        String sessionId = request.getSession().getId();
+        System.out.println(sessionId);
     }
 }
