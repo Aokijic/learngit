@@ -14,5 +14,6 @@ public class HelloController {
         System.out.println("hello");
         System.out.println("冲突测试");
         System.out.println("qjc12");
+        System.out.println("hhahahah");
     }
 }
